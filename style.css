@@ -1,0 +1,29 @@
+body {
+    background-color: #5f5f5f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    border: 1px solid #000000;
+    margin-top: 150px;
+}
+
+.card-header {
+    background-color: #28a745;
+    font-weight: bold;
+    
+}
+
+.card-body {
+    background-color: #1f1f1f;
+    color: #cdcdcd;
+}
+
+.d-grid {
+    margin-top: 20px;
+}
+
+.btn {
+    color: #000000;
+}
+
