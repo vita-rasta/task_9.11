@@ -236,6 +236,4 @@ const personGenerator = {
     
 };
 
-document.getElementById('btnGeneration').addEventListener('click', function () {
-    
-})
+

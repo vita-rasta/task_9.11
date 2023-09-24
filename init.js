@@ -12,18 +12,17 @@ window.onload = function()
     document.getElementById('professionOutput').innerText = initPerson.profession;
 };
 
-window.onload.clean = function()
+window.clean = function()
 {
-    const initPerson = personGenerator.getPerson();
     document.getElementById('firstNameOutput').innerText = '';
-    document.getElementById('surnameOutput').innerText = '';
-    document.getElementById('middleNameOutput').innerText = '';
-    document.getElementById('genderOutput').innerText = '';
-    document.getElementById('birthMonthOutput').innerText = '';
-    document.getElementById('birthDayOutput').innerText = '';
-    document.getElementById('birthYearOutput').innerText = '';
-    document.getElementById('professionOutput').innerText = '';
+    document.getElementById('surnameOutput').innerText  = '';
+    document.getElementById('middleNameOutput').innerText  = '';
+    document.getElementById('genderOutput').innerText  = '';
+    document.getElementById('birthMonthOutput').innerText  = '';
+    document.getElementById('birthDayOutput').innerText  = '';
+    document.getElementById('birthYearOutput').innerText  = '';
+    document.getElementById('professionOutput').innerText  = '';
 };
 
 document.getElementById('btnGeneration').addEventListener('click', window.onload);
-document.getElementById('btnClean').addEventListener('click', window.onload.clean);
+document.getElementById('btnClean').addEventListener('click', window.clean);
